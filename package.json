@@ -1,0 +1,23 @@
+{
+  "name": "@choicelin/load-script",
+  "version": "1.0.0",
+  "description": "load script for es6 modules",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Choicelin/load-script.git"
+  },
+  "keywords": [
+    "load",
+    "script"
+  ],
+  "author": "Choicelin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Choicelin/load-script/issues"
+  },
+  "homepage": "https://github.com/Choicelin/load-script#readme"
+}
