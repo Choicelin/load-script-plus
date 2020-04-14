@@ -24,3 +24,19 @@ export function loadScript(src, attrObject) {
     document.head.appendChild(el);
   }));
 }
+
+function unloadScript(src) { // eslint-disable-line no-param-reassign
+  return new Promise(function (resolve, reject) {
+    const el = document.querySelector('script[src="' + src + '"]')
+
+    if (!el) {
+      reject()
+
+      return
+    }
+
+    document.head.removeChild(el)
+
+    resolve()
+  })
+}
