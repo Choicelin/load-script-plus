@@ -1,6 +1,6 @@
 {
   "name": "load-script-plus",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "load script for es6 modules",
   "main": "index.js",
   "scripts": {
