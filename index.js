@@ -25,7 +25,7 @@ export function loadScript(src, attrObject) {
   }));
 }
 
-function unloadScript(src) { // eslint-disable-line no-param-reassign
+export function unloadScript(src) { // eslint-disable-line no-param-reassign
   return new Promise(function (resolve, reject) {
     const el = document.querySelector('script[src="' + src + '"]')
 
